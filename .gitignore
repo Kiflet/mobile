@@ -1,0 +1,34 @@
+# Dependencies
+/node_modules
+
+# Expo and builds
+.expo/
+dist/
+web-build/
+/ios/
+/android/
+*.apk
+*.aab
+*.ipa
+expo-env.d.ts
+
+# Native signing; EAS holds the keys
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# Tests
+/coverage
+
+# Settings with secrets in them; .env.example is the template.
+.env
+.env*.local
+
+# Editors and systems
+.DS_Store
+*.pem
